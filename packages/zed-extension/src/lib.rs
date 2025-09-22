@@ -1,8 +1,8 @@
 use std::fs;
 use zed_extension_api::{self as zed, Result};
 
-static GITHUB_REPO: &'static str = "SpyglassMC/Spyglass";
-static BIN_NAME: &'static str = "spyglass";
+const GITHUB_REPO: str = "SpyglassMC/Spyglass";
+const BIN_NAME: str = "spyglass";
 
 struct SpyglassExtension {
     cached_binary_path: Option<String>,
