@@ -78,7 +78,7 @@ impl SpyglassExtension {
             }
         );
 
-        let file_type = match platform {
+        let file_type = match platform.0 { // platform.0 returns the operating system (mac, linux, windows), while platform.1 is the architecture (aarch64, x86 or x8664)
             zed::Os::Windows => zed::DownloadedFileType::Zip,
             _ => zed::DownloadedFileType::GzipTar,
         };
