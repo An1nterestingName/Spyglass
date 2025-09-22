@@ -4,7 +4,7 @@ description = "Heavy language features for Minecraft: Java Edition data pack fil
 version = "0.1.0"
 schema_version = 1
 authors = ["Spyglass Maintainers"]
-repository = "https://github.com/SpyglassMC/zed-spyglass"
+repository = "https://github.com/SpyglassMC/Spyglass"
 
 [language_servers.spyglass]
 name = "Spyglass LSP"
